@@ -19,11 +19,6 @@ time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-
-* {
-    box-sizing: border-box;
-}
 
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -48,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Code */
+/* Code project HW */
 * {
     box-sizing: border-box;
 }
@@ -61,8 +56,8 @@ margin-right: auto;
 }
 
 h1 {
-    color: green;
-    background: greenyellow;
+    color: rgb(185, 241, 185);
+    background: rgb(39, 63, 4);
     letter-spacing: 10px;
     font-size: 30px;
     font-weight: 400;
@@ -100,8 +95,9 @@ body>div>h2+p+p {
     line-height: 20px;
 }
 
-span {
-    color: crimson; 
+a {
+    color: rgb(240, 28, 13);
+    text-decoration: none;
     font-weight: 700;
 }
 
