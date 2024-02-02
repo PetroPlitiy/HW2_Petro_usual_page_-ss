@@ -1,0 +1,82 @@
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Code */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+background: rgb(221, 207, 207);
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1 {
+    color: green;
+    background: greenyellow;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgb(5, 9, 49);
+            background: rgb(192, 193, 231);
+            letter-spacing: 3px;
+            font-size: 25px;
+            font-weight: 400;
+            text-align: center;
+}
+
+body>div>div {
+    text-align: center;
+}
+
+img {
+    border: 3px solid rgb(192, 193, 231);
+    width: 200px;
+}
+body>div>h2+p {
+    font-size: 20px; 
+    text-align: justify; 
+    line-height: 20px;
+}
+
+body>div>h2+p+p {
+    font-size: 20px; 
+    text-align: justify; 
+    line-height: 20px;
+}
+
+span {
+    color: crimson; 
+    font-weight: 700;
+}
+
+
